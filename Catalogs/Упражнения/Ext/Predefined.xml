@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="2213acce-5454-4756-87a0-2fb8d8a87ebe">
+		<Name>Бег_1_км</Name>
+		<Code>000000001</Code>
+		<Description>Бег 1 км</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5bce89ea-690c-452d-80c3-33a91fcc109e">
+		<Name>Бег_100_метров</Name>
+		<Code>000000002</Code>
+		<Description>Бег 100 метров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f4d1c85c-d7e3-4353-b695-38bc1a5012ed">
+		<Name>Подтягивания</Name>
+		<Code>000000003</Code>
+		<Description>Подтягивания</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

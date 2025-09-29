@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыПриходов" id="74b8d7d9-d0cb-41a4-8be9-e2d784c94548" configVersion="be9bd68686fea24f98a0badaf4afb94000000000"/>
+		<Metadata name="Catalog.ВидыРасходов" id="2b965fa0-7dea-401a-853f-4131e46b5068" configVersion="e0fb484272f5f34a9162cbd44edbd43400000000"/>
+		<Metadata name="Catalog.ВидыРасходов.Predefined" id="2b965fa0-7dea-401a-853f-4131e46b5068.1c" configVersion="d337f7437b385c40b9d84f396915ea5000000000"/>
+		<Metadata name="Catalog.Упражнения" id="b4f87b66-d141-4c70-8f43-117c670a041d" configVersion="4d2419d5a717ff49ae73d0d4e4e37ef200000000"/>
+		<Metadata name="Catalog.Упражнения.Predefined" id="b4f87b66-d141-4c70-8f43-117c670a041d.1c" configVersion="e5c34e61060de54ba628d8b71475533100000000"/>
+		<Metadata name="Configuration.ПроектЖизнь" id="dd132981-9543-4704-b31c-ee5f9b1ccaa7" configVersion="384b3dc51fc0e84a990bdfac0dfee94300000000"/>
+		<Metadata name="Configuration.ПроектЖизнь.ClientApplicationInterface" id="f8bcb4d8-0eb3-43f2-ba57-bbbaba576f31.b" configVersion="9cf45e5fc7cd304d8e8116c6504486a900000000"/>
+		<Metadata name="Configuration.ПроектЖизнь.MainSectionCommandInterface" id="f8bcb4d8-0eb3-43f2-ba57-bbbaba576f31.9" configVersion="3d56c323eae3b342965f5e843b5d300100000000"/>
+		<Metadata name="Document.ПриходДенег" id="a6ec369e-68b5-4fac-8667-7c681b75f7dd" configVersion="5a05343e4edb904eb8ba100549204d7c00000000">
+			<Metadata name="Document.ПриходДенег.Attribute.Вид" id="0c99cebd-86b8-49be-bc82-8e4cf3df953b"/>
+			<Metadata name="Document.ПриходДенег.Attribute.Сумма" id="405e3731-83c5-4d7f-a510-1aef78f22ef2"/>
+		</Metadata>
+		<Metadata name="Document.ПриходДенег.Form.ФормаДокумента" id="43b90218-72ac-4195-82c0-5b7ce0976c81" configVersion="b06d8db5f68c43449263ec5e428dc94a00000000"/>
+		<Metadata name="Document.ПриходДенег.Form.ФормаДокумента.Form" id="43b90218-72ac-4195-82c0-5b7ce0976c81.0" configVersion="a0c6fd02b097ac49adb4125bf87ff03a00000000"/>
+		<Metadata name="Document.РасходДенег" id="199060c9-064a-4b58-b987-7d42c1dbf5a9" configVersion="3f5b9151b985fd4f9e40261ad184e43900000000">
+			<Metadata name="Document.РасходДенег.Attribute.Вид" id="a7eb4f7e-8441-4672-a999-88c76c0b00d4"/>
+			<Metadata name="Document.РасходДенег.Attribute.Сумма" id="c5f6ccf0-1e7f-4a1d-821d-548332ac17b1"/>
+		</Metadata>
+		<Metadata name="Document.РасходДенег.Form.ФормаДокумента" id="e45973a6-5f17-4b19-9031-7dde946f1952" configVersion="faa946060143954983c98bd86888b3b300000000"/>
+		<Metadata name="Document.РасходДенег.Form.ФормаДокумента.Form" id="e45973a6-5f17-4b19-9031-7dde946f1952.0" configVersion="bb88d6fc9fc34946884274c749a7b56600000000"/>
+		<Metadata name="Document.УчетЗанятий" id="50925cf9-d678-4fb4-a70a-2ecc558478f8" configVersion="f172a068571dea43acb993016096db7200000000">
+			<Metadata name="Document.УчетЗанятий.Attribute.ДанныеКоличество" id="7c761737-09ff-4e4d-9377-a3750f4c0df9"/>
+			<Metadata name="Document.УчетЗанятий.Attribute.ДанныеВремя" id="d6ea9a0b-4e2d-4682-bd17-b54fcaa5ac9a"/>
+			<Metadata name="Document.УчетЗанятий.Attribute.ВидУпражнения" id="da4c5248-8d62-423b-bd77-8536611c6dec"/>
+		</Metadata>
+		<Metadata name="Document.УчетЗанятий.Form.ФормаДокумента" id="869f520c-0afb-4d98-aaa4-591099f68644" configVersion="15a7c1c465394646832aa8e2f694526d00000000"/>
+		<Metadata name="Document.УчетЗанятий.Form.ФормаДокумента.Form" id="869f520c-0afb-4d98-aaa4-591099f68644.0" configVersion="6e503e37be6c5a41aaef49b97246624a00000000"/>
+		<Metadata name="Language.Русский" id="25f84ee2-56cb-48b4-9e97-0821ba6e8d74" configVersion="21e742eb13e84443874ab5966c2e223f00000000"/>
+		<Metadata name="Subsystem.Деньги" id="9ed84a5f-68bb-4c44-ac86-6544449fff5c" configVersion="5f807296b4b3ce49ba05059e26eed7bd00000000"/>
+		<Metadata name="Subsystem.Деньги.CommandInterface" id="9ed84a5f-68bb-4c44-ac86-6544449fff5c.1" configVersion="127cc6baa8bcf64dbca30286c0cbc7ac00000000"/>
+		<Metadata name="Subsystem.ТренажерныйЗал" id="30d3a3f0-f321-4638-a69a-90b8a172b4d7" configVersion="4af97dff49e67848807a9d82a657c24600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
