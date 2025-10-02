@@ -258,6 +258,8 @@
 			<Document>РасходДенег</Document>
 			<Document>ПриходДенег</Document>
 			<Document>УчетЗанятий</Document>
+			<AccumulationRegister>ИзменениеДенежныхСредств</AccumulationRegister>
+			<AccumulationRegister>ПрогрессВЗале</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

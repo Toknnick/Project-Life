@@ -17,6 +17,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УчетЗанятий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрогрессВЗале</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

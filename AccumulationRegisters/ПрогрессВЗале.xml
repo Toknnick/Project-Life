@@ -1,169 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="50925cf9-d678-4fb4-a70a-2ecc558478f8">
+	<AccumulationRegister uuid="d8c5c68e-1c19-4fd7-b95c-baa02169f2f6">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.УчетЗанятий" category="Object">
-				<xr:TypeId>6474047d-d125-493a-8e89-aa22e3c85892</xr:TypeId>
-				<xr:ValueId>6650e9cd-120f-4c95-a7b6-cb31ebcc59cb</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ПрогрессВЗале" category="Record">
+				<xr:TypeId>a6ac3eff-f8e5-4b03-8201-35f8a550da82</xr:TypeId>
+				<xr:ValueId>0643fb45-afa7-40c4-9a94-d8d0a4e3bd4d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.УчетЗанятий" category="Ref">
-				<xr:TypeId>ea0a3484-3be0-48fc-a132-af83dab35b2d</xr:TypeId>
-				<xr:ValueId>e47e3078-3bde-45b0-9818-9e4902b7a2c0</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.ПрогрессВЗале" category="Manager">
+				<xr:TypeId>1b3977b6-4262-463a-ab1b-99f8b645ef42</xr:TypeId>
+				<xr:ValueId>2d33b345-1d6e-4f02-83e3-26521ac1bb83</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.УчетЗанятий" category="Selection">
-				<xr:TypeId>c7c78455-da63-4047-9799-9725b9e4288c</xr:TypeId>
-				<xr:ValueId>d52e6b7f-8ff7-4f3a-a235-1114474d9dc0</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ПрогрессВЗале" category="Selection">
+				<xr:TypeId>452c3cd3-c46f-476b-b3ac-02ce0eda6e98</xr:TypeId>
+				<xr:ValueId>06998b5d-e049-4374-b3a8-7506863933b8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.УчетЗанятий" category="List">
-				<xr:TypeId>9ba4f5af-3933-4ca2-88f8-dead019fd9f3</xr:TypeId>
-				<xr:ValueId>d77dbc18-9606-40e9-945b-f3f99d3fc226</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.ПрогрессВЗале" category="List">
+				<xr:TypeId>1d90b0d5-74ce-407d-93b3-f135290a6239</xr:TypeId>
+				<xr:ValueId>c537571b-d680-40cd-92f4-9a563ebc220c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.УчетЗанятий" category="Manager">
-				<xr:TypeId>8e695242-78c1-4cd1-9076-0aa5c68af49e</xr:TypeId>
-				<xr:ValueId>76572fc2-0fa8-410f-b7fc-fb65303f2b83</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ПрогрессВЗале" category="RecordSet">
+				<xr:TypeId>3fe604bf-dbc8-40a4-977e-fd24deaf8dd1</xr:TypeId>
+				<xr:ValueId>f7616508-0a20-4ba1-8212-dbb20cbb430b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ПрогрессВЗале" category="RecordKey">
+				<xr:TypeId>2da26740-5aa2-4d38-9724-17aa4dcc5a8b</xr:TypeId>
+				<xr:ValueId>94c95da9-13db-443b-b26b-4d39dc1c9eba</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>УчетЗанятий</Name>
+			<Name>ПрогрессВЗале</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Учет занятий</v8:content>
+					<v8:content>Прогресс в зале</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Numerator/>
-			<NumberType>String</NumberType>
-			<NumberLength>9</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
-			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
-			<Characteristics/>
-			<BasedOn/>
-			<InputByString>
-				<xr:Field>Document.УчетЗанятий.StandardAttribute.Number</xr:Field>
-			</InputByString>
-			<CreateOnInput>Use</CreateOnInput>
-			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.УчетЗанятий.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
-			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
-			<AuxiliaryChoiceForm/>
-			<Posting>Allow</Posting>
-			<RealTimePosting>Allow</RealTimePosting>
-			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
-			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
-			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрогрессВЗале</xr:Item>
-			</RegisterRecords>
-			<PostInPrivilegedMode>true</PostInPrivilegedMode>
-			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+			<RegisterType>Turnovers</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
-			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
-			<ExtendedObjectPresentation/>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-			<DataHistory>DontUse</DataHistory>
-			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
-			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="da4c5248-8d62-423b-bd77-8536611c6dec">
-				<Properties>
-					<Name>ВидУпражнения</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид упражнения</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Упражнения</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="7c761737-09ff-4e4d-9377-a3750f4c0df9">
-				<Properties>
-					<Name>ДанныеКоличество</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Данные</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>5</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="d6ea9a0b-4e2d-4682-bd17-b54fcaa5ac9a">
+			<Attribute uuid="ebc988bd-bbde-4e93-ba65-a9d91532cba2">
 				<Properties>
 					<Name>ДанныеВремя</Name>
 					<Synonym>
@@ -189,8 +75,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -202,10 +86,87 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ФормаДокумента</Form>
+			<Attribute uuid="4daef68a-ec09-4b59-b91f-7a60ae49a31d">
+				<Properties>
+					<Name>ДанныеКоличество</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные количество</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="047bdb34-0a00-4075-a5c1-9a22a5641b44">
+				<Properties>
+					<Name>Вид</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Упражнения</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
-	</Document>
+	</AccumulationRegister>
 </MetaDataObject>
