@@ -49,25 +49,41 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="ebc988bd-bbde-4e93-ba65-a9d91532cba2">
+			<Attribute uuid="f6f3b263-11f9-4d5c-97aa-805b37d29127">
 				<Properties>
-					<Name>ДанныеВремя</Name>
+					<Name>Данные</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Данные время</v8:content>
+							<v8:content>Данные</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 						<v8:DateQualifiers>
 							<v8:DateFractions>Time</v8:DateFractions>
 						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=mm:ss</v8:content>
+						</v8:item>
+					</Format>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=mm:ss</v8:content>
+						</v8:item>
+					</EditFormat>
 					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
 					<Mask/>
@@ -88,23 +104,22 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4daef68a-ec09-4b59-b91f-7a60ae49a31d">
+			<Attribute uuid="0ad998a8-15b3-49a0-a056-e629789e7b21">
 				<Properties>
-					<Name>ДанныеКоличество</Name>
+					<Name>Комментарий</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Данные количество</v8:content>
+							<v8:content>Комментарий</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -131,11 +146,11 @@
 			</Attribute>
 			<Dimension uuid="047bdb34-0a00-4075-a5c1-9a22a5641b44">
 				<Properties>
-					<Name>Вид</Name>
+					<Name>Упражнение</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид</v8:content>
+							<v8:content>Упражнение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

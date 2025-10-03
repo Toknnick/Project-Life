@@ -4,14 +4,10 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
-	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
-	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
 			<Visible>false</Visible>
-			<Enabled>false</Enabled>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -24,35 +20,80 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="ВидУпражнения" id="7">
-			<DataPath>Объект.ВидУпражнения</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ВидУпражненияКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ВидУпражненияРасширеннаяПодсказка" id="9"/>
+		<Table name="ВыполненныеУпражнения" id="7">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ВыполненныеУпражнения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ВыполненныеУпражненияКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ВыполненныеУпражненияКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ВыполненныеУпражненияРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ВыполненныеУпражненияСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ВыполненныеУпражнения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыполненныеУпражненияСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ВыполненныеУпражненияСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ВыполненныеУпражненияСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ВыполненныеУпражнения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыполненныеУпражненияСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ВыполненныеУпражненияСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ВыполненныеУпражненияУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ВыполненныеУпражнения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыполненныеУпражненияУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ВыполненныеУпражненияУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
 			<Events>
-				<Event name="OnChange">ВидУпражненияПриИзменении</Event>
-				<Event name="EditTextChange">ВидУпражненияИзменениеТекстаРедактирования</Event>
+				<Event name="BeforeEditEnd">ВыполненныеУпражненияПередОкончаниемРедактирования</Event>
+				<Event name="OnChange">ВыполненныеУпражненияПриИзменении</Event>
 			</Events>
-		</InputField>
-		<InputField name="ДанныеКоличество" id="10">
-			<DataPath>Объект.ДанныеКоличество</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ДанныеКоличествоКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ДанныеКоличествоРасширеннаяПодсказка" id="12"/>
-		</InputField>
-		<InputField name="ДанныеВремя" id="13">
-			<DataPath>Объект.ДанныеВремя</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<EditFormat>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ДФ=mm:ss</v8:content>
-				</v8:item>
-			</EditFormat>
-			<ContextMenu name="ДанныеВремяКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ДанныеВремяРасширеннаяПодсказка" id="15"/>
-		</InputField>
+			<ChildItems>
+				<LabelField name="ВыполненныеУпражненияНомерСтроки" id="20">
+					<DataPath>Объект.ВыполненныеУпражнения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВыполненныеУпражненияНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ВыполненныеУпражненияНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ВыполненныеУпражненияУпражение" id="23">
+					<DataPath>Объект.ВыполненныеУпражнения.Упражнение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВыполненныеУпражненияУпражениеКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ВыполненныеУпражненияУпражениеРасширеннаяПодсказка" id="25"/>
+					<Events>
+						<Event name="OnChange">ВыполненныеУпражненияУпражениеПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ВыполненныеУпражненияДанные" id="26">
+					<DataPath>Объект.ВыполненныеУпражнения.Данные</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ВыполненныеУпражненияДанныеКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ВыполненныеУпражненияДанныеРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ВыполненныеУпражненияКомментарий" id="29">
+					<DataPath>Объект.ВыполненныеУпражнения.Комментарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВыполненныеУпражненияКомментарийКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ВыполненныеУпражненияКомментарийРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">ВыполненныеУпражненияКомментарийПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -64,6 +105,9 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.ВыполненныеУпражнения"/>
+			</Columns>
 		</Attribute>
 	</Attributes>
 </Form>

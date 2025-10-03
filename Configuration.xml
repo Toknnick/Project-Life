@@ -258,8 +258,9 @@
 			<Document>РасходДенег</Document>
 			<Document>ПриходДенег</Document>
 			<Document>УчетЗанятий</Document>
+			<Enum>ВидыУпражненией</Enum>
 			<Report>ДенежныеСредства</Report>
-			<Report>ПрогрессВЗале</Report>
+			<Report>Занятия</Report>
 			<AccumulationRegister>ИзменениеДенежныхСредств</AccumulationRegister>
 			<AccumulationRegister>ПрогрессВЗале</AccumulationRegister>
 		</ChildObjects>

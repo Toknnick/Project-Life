@@ -5,17 +5,19 @@
 			<Metadata name="AccumulationRegister.ИзменениеДенежныхСредств.Dimension.Вид" id="5b8ac3e7-58e9-4986-89b7-0a45334e6b82"/>
 			<Metadata name="AccumulationRegister.ИзменениеДенежныхСредств.Resource.Сумма" id="70e2e77a-0486-4fab-9c45-44b0619063ee"/>
 		</Metadata>
-		<Metadata name="AccumulationRegister.ПрогрессВЗале" id="d8c5c68e-1c19-4fd7-b95c-baa02169f2f6" configVersion="73aae46efcd6624691905eed0c6591f800000000">
-			<Metadata name="AccumulationRegister.ПрогрессВЗале.Dimension.Вид" id="047bdb34-0a00-4075-a5c1-9a22a5641b44"/>
-			<Metadata name="AccumulationRegister.ПрогрессВЗале.Attribute.ДанныеКоличество" id="4daef68a-ec09-4b59-b91f-7a60ae49a31d"/>
-			<Metadata name="AccumulationRegister.ПрогрессВЗале.Attribute.ДанныеВремя" id="ebc988bd-bbde-4e93-ba65-a9d91532cba2"/>
+		<Metadata name="AccumulationRegister.ПрогрессВЗале" id="d8c5c68e-1c19-4fd7-b95c-baa02169f2f6" configVersion="0036c21f09917d49834eb048c72d2a7e00000000">
+			<Metadata name="AccumulationRegister.ПрогрессВЗале.Dimension.Упражнение" id="047bdb34-0a00-4075-a5c1-9a22a5641b44"/>
+			<Metadata name="AccumulationRegister.ПрогрессВЗале.Attribute.Комментарий" id="0ad998a8-15b3-49a0-a056-e629789e7b21"/>
+			<Metadata name="AccumulationRegister.ПрогрессВЗале.Attribute.Данные" id="f6f3b263-11f9-4d5c-97aa-805b37d29127"/>
 		</Metadata>
 		<Metadata name="Catalog.ВидыПриходов" id="74b8d7d9-d0cb-41a4-8be9-e2d784c94548" configVersion="be9bd68686fea24f98a0badaf4afb94000000000"/>
 		<Metadata name="Catalog.ВидыРасходов" id="2b965fa0-7dea-401a-853f-4131e46b5068" configVersion="e0fb484272f5f34a9162cbd44edbd43400000000"/>
 		<Metadata name="Catalog.ВидыРасходов.Predefined" id="2b965fa0-7dea-401a-853f-4131e46b5068.1c" configVersion="d337f7437b385c40b9d84f396915ea5000000000"/>
-		<Metadata name="Catalog.Упражнения" id="b4f87b66-d141-4c70-8f43-117c670a041d" configVersion="4d2419d5a717ff49ae73d0d4e4e37ef200000000"/>
-		<Metadata name="Catalog.Упражнения.Predefined" id="b4f87b66-d141-4c70-8f43-117c670a041d.1c" configVersion="e5c34e61060de54ba628d8b71475533100000000"/>
-		<Metadata name="Configuration.ПроектЖизнь" id="dd132981-9543-4704-b31c-ee5f9b1ccaa7" configVersion="92b3c2dd4568504b9d8ee9805b22f3fe00000000"/>
+		<Metadata name="Catalog.Упражнения" id="b4f87b66-d141-4c70-8f43-117c670a041d" configVersion="76f5809cda52c14d84ce5aa4bb7afc8900000000">
+			<Metadata name="Catalog.Упражнения.Attribute.ВидДанных" id="08ff2518-0f1b-44dd-a2af-84bbbdb3cc91"/>
+		</Metadata>
+		<Metadata name="Catalog.Упражнения.Predefined" id="b4f87b66-d141-4c70-8f43-117c670a041d.1c" configVersion="9b4114529ca4ba4aa054819346fad7b600000000"/>
+		<Metadata name="Configuration.ПроектЖизнь" id="dd132981-9543-4704-b31c-ee5f9b1ccaa7" configVersion="c29aba828cc55b4cadf935fc2b8d769f00000000"/>
 		<Metadata name="Configuration.ПроектЖизнь.ClientApplicationInterface" id="f8bcb4d8-0eb3-43f2-ba57-bbbaba576f31.b" configVersion="9cf45e5fc7cd304d8e8116c6504486a900000000"/>
 		<Metadata name="Configuration.ПроектЖизнь.MainSectionCommandInterface" id="f8bcb4d8-0eb3-43f2-ba57-bbbaba576f31.9" configVersion="be0c69df7cd9fe4a9dbad53290ea77e400000000"/>
 		<Metadata name="Document.ПриходДенег" id="a6ec369e-68b5-4fac-8667-7c681b75f7dd" configVersion="7b1a2bf9eef78c438ffcfcb91f906d2300000000">
@@ -32,23 +34,28 @@
 		<Metadata name="Document.РасходДенег.Form.ФормаДокумента" id="e45973a6-5f17-4b19-9031-7dde946f1952" configVersion="faa946060143954983c98bd86888b3b300000000"/>
 		<Metadata name="Document.РасходДенег.Form.ФормаДокумента.Form" id="e45973a6-5f17-4b19-9031-7dde946f1952.0" configVersion="bb88d6fc9fc34946884274c749a7b56600000000"/>
 		<Metadata name="Document.РасходДенег.ObjectModule" id="199060c9-064a-4b58-b987-7d42c1dbf5a9.0" configVersion="2004b9445a35b44eb5617d80641624b700000000"/>
-		<Metadata name="Document.УчетЗанятий" id="50925cf9-d678-4fb4-a70a-2ecc558478f8" configVersion="435185f4ce07104b9eb80ac7eb94253900000000">
-			<Metadata name="Document.УчетЗанятий.Attribute.ДанныеКоличество" id="7c761737-09ff-4e4d-9377-a3750f4c0df9"/>
-			<Metadata name="Document.УчетЗанятий.Attribute.ДанныеВремя" id="d6ea9a0b-4e2d-4682-bd17-b54fcaa5ac9a"/>
-			<Metadata name="Document.УчетЗанятий.Attribute.ВидУпражнения" id="da4c5248-8d62-423b-bd77-8536611c6dec"/>
+		<Metadata name="Document.УчетЗанятий" id="50925cf9-d678-4fb4-a70a-2ecc558478f8" configVersion="c70c0f0948511a43b663708a7b9c218900000000">
+			<Metadata name="Document.УчетЗанятий.TabularSection.ВыполненныеУпражнения.Attribute.Комментарий" id="3327ef2e-b6a5-4030-a326-70e478df69e8"/>
+			<Metadata name="Document.УчетЗанятий.TabularSection.ВыполненныеУпражнения" id="7c19caac-22ee-449a-bf20-c08aa149d1c0"/>
+			<Metadata name="Document.УчетЗанятий.TabularSection.ВыполненныеУпражнения.Attribute.Упражнение" id="d048ec76-a447-4b27-bfa8-9714deef217f"/>
+			<Metadata name="Document.УчетЗанятий.TabularSection.ВыполненныеУпражнения.Attribute.Данные" id="fec354f1-3c01-4def-af9c-f440e70e4ca3"/>
 		</Metadata>
-		<Metadata name="Document.УчетЗанятий.Form.ФормаДокумента" id="869f520c-0afb-4d98-aaa4-591099f68644" configVersion="15a7c1c465394646832aa8e2f694526d00000000"/>
-		<Metadata name="Document.УчетЗанятий.Form.ФормаДокумента.Form" id="869f520c-0afb-4d98-aaa4-591099f68644.0" configVersion="6e503e37be6c5a41aaef49b97246624a00000000"/>
-		<Metadata name="Document.УчетЗанятий.ObjectModule" id="50925cf9-d678-4fb4-a70a-2ecc558478f8.0" configVersion="93d1b9ee9bf20740b9049fe23913052d00000000"/>
+		<Metadata name="Document.УчетЗанятий.Form.ФормаДокумента" id="9b2bd576-d6d1-46e6-b602-f4066e81534e" configVersion="7f0d5ebbc2acc34da7c754a4e0dde1f300000000"/>
+		<Metadata name="Document.УчетЗанятий.Form.ФормаДокумента.Form" id="9b2bd576-d6d1-46e6-b602-f4066e81534e.0" configVersion="36cabb6dd09ab7498880798b0b65a44000000000"/>
+		<Metadata name="Document.УчетЗанятий.ObjectModule" id="50925cf9-d678-4fb4-a70a-2ecc558478f8.0" configVersion="3504227c175bd94c9dc7f768bcd142d500000000"/>
+		<Metadata name="Enum.ВидыУпражненией" id="c19172f3-a104-483c-bf66-7d864dfcd213" configVersion="3d71045e4bcba943b61cba00b601848400000000">
+			<Metadata name="Enum.ВидыУпражненией.EnumValue.Время" id="0f67d850-27c9-4ddf-916f-fff2f359aeea"/>
+			<Metadata name="Enum.ВидыУпражненией.EnumValue.Количество" id="2fb6bd14-e560-479a-9634-fe2ab489ea64"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="25f84ee2-56cb-48b4-9e97-0821ba6e8d74" configVersion="21e742eb13e84443874ab5966c2e223f00000000"/>
 		<Metadata name="Report.ДенежныеСредства" id="65851b99-486e-4dff-91ea-3025a2b55c2d" configVersion="d2e3351e542ce14f9107aab1dae0009700000000"/>
 		<Metadata name="Report.ДенежныеСредства.Template.ОсновнаяСхемаКомпоновкиДанных" id="afdf4427-5195-4bd8-b85b-81d112190e71" configVersion="c3b1c0442329394abc048a119ebac83f00000000"/>
 		<Metadata name="Report.ДенежныеСредства.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="afdf4427-5195-4bd8-b85b-81d112190e71.0" configVersion="e68e4b081955dd43a1f7bbadd3c5c3e300000000"/>
-		<Metadata name="Report.ПрогрессВЗале" id="b211512a-84ab-4796-8a84-c01f8c1b07c7" configVersion="f1325a314f55af4eb7e6d3ea1af4cf8300000000"/>
-		<Metadata name="Report.ПрогрессВЗале.Template.ОсновнаяСхемаКомпоновкиДанных" id="a8c027a5-e01f-4e4a-8647-023f7309ca52" configVersion="14341d9c7cc952439be6c2467069030f00000000"/>
-		<Metadata name="Report.ПрогрессВЗале.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a8c027a5-e01f-4e4a-8647-023f7309ca52.0" configVersion="8b46155bdaf2a0448a540b55327d45b500000000"/>
+		<Metadata name="Report.Занятия" id="c119c051-d13d-450b-a67c-f966401a12e1" configVersion="1b5fb74ca0eb0e43af18040821c0759e00000000"/>
+		<Metadata name="Report.Занятия.Template.ОсновнаяСхемаКомпоновкиДанных" id="ff421700-14e6-4ff2-86ec-31e003b6f355" configVersion="d8f339fdfba28841a7dd2375022b7b2500000000"/>
+		<Metadata name="Report.Занятия.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ff421700-14e6-4ff2-86ec-31e003b6f355.0" configVersion="8ded57375ea51142b20bab8e2cbfc0e400000000"/>
 		<Metadata name="Subsystem.Деньги" id="9ed84a5f-68bb-4c44-ac86-6544449fff5c" configVersion="5c45ce48b5913d4b8b7874c68ddcd89600000000"/>
 		<Metadata name="Subsystem.Деньги.CommandInterface" id="9ed84a5f-68bb-4c44-ac86-6544449fff5c.1" configVersion="127cc6baa8bcf64dbca30286c0cbc7ac00000000"/>
-		<Metadata name="Subsystem.ТренажерныйЗал" id="30d3a3f0-f321-4638-a69a-90b8a172b4d7" configVersion="f80f0331431cd84ebbff9b302bb395c300000000"/>
+		<Metadata name="Subsystem.ТренажерныйЗал" id="30d3a3f0-f321-4638-a69a-90b8a172b4d7" configVersion="e73a891b6db42e4a987cb10c84a02c6500000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

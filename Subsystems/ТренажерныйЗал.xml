@@ -18,7 +18,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УчетЗанятий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрогрессВЗале</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрогрессВЗале</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Упражнения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Занятия</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
