@@ -76,6 +76,7 @@
 				</InputField>
 				<InputField name="ВыполненныеУпражненияДанные" id="26">
 					<DataPath>Объект.ВыполненныеУпражнения.Данные</DataPath>
+					<HorizontalAlign>Left</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ChooseType>false</ChooseType>

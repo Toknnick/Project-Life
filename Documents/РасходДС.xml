@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="50925cf9-d678-4fb4-a70a-2ecc558478f8">
+	<Document uuid="199060c9-064a-4b58-b987-7d42c1dbf5a9">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.УчетЗанятий" category="Object">
-				<xr:TypeId>6474047d-d125-493a-8e89-aa22e3c85892</xr:TypeId>
-				<xr:ValueId>6650e9cd-120f-4c95-a7b6-cb31ebcc59cb</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.РасходДС" category="Object">
+				<xr:TypeId>04f67a81-9e5a-4691-8675-fef76c33eb18</xr:TypeId>
+				<xr:ValueId>cf3b4b5e-e7ea-4159-b6dc-3bc6a38231ee</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.УчетЗанятий" category="Ref">
-				<xr:TypeId>ea0a3484-3be0-48fc-a132-af83dab35b2d</xr:TypeId>
-				<xr:ValueId>e47e3078-3bde-45b0-9818-9e4902b7a2c0</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.РасходДС" category="Ref">
+				<xr:TypeId>4a48d14e-519f-44a5-a876-957fa2ac93e6</xr:TypeId>
+				<xr:ValueId>fd7be4ec-187f-4027-8682-4775ba8dbf57</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.УчетЗанятий" category="Selection">
-				<xr:TypeId>c7c78455-da63-4047-9799-9725b9e4288c</xr:TypeId>
-				<xr:ValueId>d52e6b7f-8ff7-4f3a-a235-1114474d9dc0</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.РасходДС" category="Selection">
+				<xr:TypeId>dc80b40b-4c32-4b0f-b710-c59e60e25a2a</xr:TypeId>
+				<xr:ValueId>d412d848-d53a-46d3-8f5c-85263a4eb405</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.УчетЗанятий" category="List">
-				<xr:TypeId>9ba4f5af-3933-4ca2-88f8-dead019fd9f3</xr:TypeId>
-				<xr:ValueId>d77dbc18-9606-40e9-945b-f3f99d3fc226</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.РасходДС" category="List">
+				<xr:TypeId>d31c4980-f8be-42ed-9c9e-f4d4e81e4627</xr:TypeId>
+				<xr:ValueId>193a3132-fc9d-4d61-a011-d7cfc0e4c610</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.УчетЗанятий" category="Manager">
-				<xr:TypeId>8e695242-78c1-4cd1-9076-0aa5c68af49e</xr:TypeId>
-				<xr:ValueId>76572fc2-0fa8-410f-b7fc-fb65303f2b83</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.РасходДС" category="Manager">
+				<xr:TypeId>3ed42b0a-9809-4c5c-bb0b-5fd2b4cf70ea</xr:TypeId>
+				<xr:ValueId>51b30768-574a-43cd-9122-629fe6258dfa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>УчетЗанятий</Name>
+			<Name>РасходДС</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Учет занятий</v8:content>
+					<v8:content>Расход ДС</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -124,7 +124,7 @@
 				</xr:StandardAttribute>
 				<xr:StandardAttribute name="Date">
 					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:FillChecking>ShowError</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
 					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
 					<xr:CreateOnInput>Auto</xr:CreateOnInput>
@@ -145,7 +145,7 @@
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:type="xs:dateTime">0001-01-01T00:00:00</xr:FillValue>
+					<xr:FillValue xsi:nil="true"/>
 					<xr:Mask/>
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
@@ -180,13 +180,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.УчетЗанятий.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.РасходДС.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.УчетЗанятий.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.РасходДС.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -198,7 +198,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПрогрессВЗале</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИзменениеДенежныхСредств</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -206,7 +206,12 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation/>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход</v8:content>
+				</v8:item>
+			</ObjectPresentation>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
@@ -217,187 +222,90 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="7c19caac-22ee-449a-bf20-c08aa149d1c0">
-				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.УчетЗанятий.ВыполненныеУпражнения" category="TabularSection">
-						<xr:TypeId>4fe09b29-10f2-4497-a338-2a20b80d619d</xr:TypeId>
-						<xr:ValueId>58e718d8-b692-4595-a88c-e2e1c61f65db</xr:ValueId>
-					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.УчетЗанятий.ВыполненныеУпражнения" category="TabularSectionRow">
-						<xr:TypeId>5973778a-2da3-4f53-bd54-48e9c1320322</xr:TypeId>
-						<xr:ValueId>a9d7813b-f85a-4122-a311-5be72351e752</xr:ValueId>
-					</xr:GeneratedType>
-				</InternalInfo>
+			<Attribute uuid="a7eb4f7e-8441-4672-a999-88c76c0b00d4">
 				<Properties>
-					<Name>ВыполненныеУпражнения</Name>
+					<Name>Вид</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Выполненные упражнения</v8:content>
+							<v8:content>Вид</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыРасходов</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
 					<ToolTip/>
-					<FillChecking>DontCheck</FillChecking>
-					<LineNumberLength>9</LineNumberLength>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
-				<ChildObjects>
-					<Attribute uuid="d048ec76-a447-4b27-bfa8-9714deef217f">
-						<Properties>
-							<Name>Упражнение</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Упражнение</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>cfg:CatalogRef.Упражнения</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>ShowError</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="fec354f1-3c01-4def-af9c-f440e70e4ca3">
-						<Properties>
-							<Name>Данные</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Данные</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:dateTime</v8:Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-								<v8:DateQualifiers>
-									<v8:DateFractions>Time</v8:DateFractions>
-								</v8:DateQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ЧЦ=5; ЧДЦ=0; ЧГ=3,0; ЧО=0; ДФ=mm:ss</v8:content>
-								</v8:item>
-							</Format>
-							<EditFormat>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ЧЦ=5; ЧДЦ=0; ЧГ=3,0; ЧО=0; ДФ=mm:ss</v8:content>
-								</v8:item>
-							</EditFormat>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>ShowError</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Use</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="3327ef2e-b6a5-4030-a326-70e478df69e8">
-						<Properties>
-							<Name>Комментарий</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Комментарий</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>0</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-				</ChildObjects>
-			</TabularSection>
-			<Template>Печать</Template>
-			<Command uuid="1b5777d4-d80f-4bd7-9f0c-3e8441cafee3">
+			</Attribute>
+			<Attribute uuid="c5f6ccf0-1e7f-4a1d-821d-548332ac17b1">
 				<Properties>
-					<Name>Печать</Name>
-					<Synonym/>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:DocumentRef.УчетЗанятий</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>7</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
 					<ToolTip/>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Command>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
