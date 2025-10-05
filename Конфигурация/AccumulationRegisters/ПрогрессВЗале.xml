@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="d8c5c68e-1c19-4fd7-b95c-baa02169f2f6">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ПрогрессВЗале" category="Record">
+				<xr:TypeId>a6ac3eff-f8e5-4b03-8201-35f8a550da82</xr:TypeId>
+				<xr:ValueId>0643fb45-afa7-40c4-9a94-d8d0a4e3bd4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ПрогрессВЗале" category="Manager">
+				<xr:TypeId>1b3977b6-4262-463a-ab1b-99f8b645ef42</xr:TypeId>
+				<xr:ValueId>2d33b345-1d6e-4f02-83e3-26521ac1bb83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ПрогрессВЗале" category="Selection">
+				<xr:TypeId>452c3cd3-c46f-476b-b3ac-02ce0eda6e98</xr:TypeId>
+				<xr:ValueId>06998b5d-e049-4374-b3a8-7506863933b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ПрогрессВЗале" category="List">
+				<xr:TypeId>1d90b0d5-74ce-407d-93b3-f135290a6239</xr:TypeId>
+				<xr:ValueId>c537571b-d680-40cd-92f4-9a563ebc220c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ПрогрессВЗале" category="RecordSet">
+				<xr:TypeId>3fe604bf-dbc8-40a4-977e-fd24deaf8dd1</xr:TypeId>
+				<xr:ValueId>f7616508-0a20-4ba1-8212-dbb20cbb430b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ПрогрессВЗале" category="RecordKey">
+				<xr:TypeId>2da26740-5aa2-4d38-9724-17aa4dcc5a8b</xr:TypeId>
+				<xr:ValueId>94c95da9-13db-443b-b26b-4d39dc1c9eba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрогрессВЗале</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прогресс в зале</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
+			<RegisterType>Turnovers</RegisterType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f6f3b263-11f9-4d5c-97aa-805b37d29127">
+				<Properties>
+					<Name>Результат</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=mm:ss</v8:content>
+						</v8:item>
+					</Format>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=mm:ss</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0ad998a8-15b3-49a0-a056-e629789e7b21">
+				<Properties>
+					<Name>Комментарий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="047bdb34-0a00-4075-a5c1-9a22a5641b44">
+				<Properties>
+					<Name>Упражнение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упражнение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Упражнения</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

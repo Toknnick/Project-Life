@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="Document.ПриходДС.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.РасходДС.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.УчетЗанятий.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Report.ДенежныеСредства.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Report.Занятия.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.ПриходДС.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Document.РасходДС.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Document.УчетЗанятий.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Report.ДенежныеСредства.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="Report.Занятия.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+	</CommandsPlacement>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>
